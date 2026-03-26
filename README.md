@@ -5,3 +5,9 @@ sudo pacman -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-po
 paru -S dms-shell-bin matugen cava qt6-multimedia-ffmpeg
 systemctl --user add-wants niri.service dms
 ```
+
+Setting up my fish shell.
+```
+sudo pacman -S fish
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+```
