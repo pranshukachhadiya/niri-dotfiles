@@ -2,8 +2,11 @@
 Installing **Niri** and the pre-requisites.
 ```
 sudo pacman -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-portal-gtk alacritty
-paru -S dms-shell-niri matugen cava qt6-multimedia-ffmpeg fresh waybar
-systemctl --user add-wants niri.service dms
+sudo  pacman -S matugen cava qt6-multimedia-ffmpeg fresh 
+systemctl --user add-wants niri.service
+
+Installing Dank Material Shell
+curl -fsSL https://install.danklinux.com | sh
 ```
 
 ## Configuring
