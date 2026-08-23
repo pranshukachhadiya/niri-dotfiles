@@ -1,11 +1,26 @@
 ## Installation
 Installing **Niri** and the pre-requisites.
 ```
-sudo pacman -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-portal-gtk alacritty
-sudo  pacman -S matugen cava qt6-multimedia-ffmpeg fresh 
+sudo pacman -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-portal-gtk kitty
+sudo  pacman -S matugen cava qt6-multimedia-ffmpeg
 systemctl --user add-wants niri.service
+```
+Installing Paru
+```
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+rm -rf ../paru
+```
+
+Installing Editors
+```
+paru -S nvim fresh-editor-bin
+```
 
 Installing Dank Material Shell
+```
 curl -fsSL https://install.danklinux.com | sh
 ```
 
