@@ -30,7 +30,8 @@ Setting up my fish shell.
 ```
 sudo pacman -S fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
-
+```
+```
 set -gx VIRTUAL_ENV_DISABLE_PROMPT 1
 omf install neolambda
 ```
