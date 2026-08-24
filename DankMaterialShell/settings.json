@@ -283,7 +283,13 @@
   "appLauncherViewMode": "list",
   "spotlightModalViewMode": "list",
   "browserPickerViewMode": "grid",
-  "browserUsageHistory": {},
+  "browserUsageHistory": {
+    "firefox": {
+      "count": 8,
+      "lastUsed": 1787581670260,
+      "name": "Firefox"
+    }
+  },
   "appPickerViewMode": "grid",
   "filePickerUsageHistory": {},
   "sortAppsAlphabetically": false,
@@ -332,7 +338,7 @@
       "enabled": true
     }
   ],
-  "networkPreference": "auto",
+  "networkPreference": "wifi",
   "iconThemeDark": "System Default",
   "iconThemeLight": "System Default",
   "iconThemePerMode": false,
@@ -637,7 +643,7 @@
       "spacing": 5,
       "innerPadding": 8,
       "bottomGap": 0,
-      "transparency": 0.7,
+      "transparency": 0.5,
       "widgetTransparency": 0,
       "squareCorners": false,
       "noBackground": false,
