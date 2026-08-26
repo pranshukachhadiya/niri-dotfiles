@@ -57,7 +57,7 @@
   "enableRippleEffects": true,
   "animationVariant": 0,
   "motionEffect": 1,
-  "m3ElevationEnabled": true,
+  "m3ElevationEnabled": false,
   "m3ElevationIntensity": 12,
   "m3ElevationOpacity": 30,
   "m3ElevationColorMode": "default",
@@ -623,7 +623,7 @@
       "rightWidgets": [
         "systemTray",
         {
-          "id": "idleInhibitor",
+          "id": "dankPomodoroTimer",
           "enabled": true
         },
         "clipboard",
@@ -643,7 +643,7 @@
       "spacing": 5,
       "innerPadding": 8,
       "bottomGap": 0,
-      "transparency": 0.5,
+      "transparency": 0.4,
       "widgetTransparency": 0,
       "squareCorners": false,
       "noBackground": false,
@@ -668,7 +668,7 @@
       "shadowOpacity": 60,
       "widgetOutlineEnabled": false,
       "widgetOutlineColor": "surfaceText",
-      "widgetOutlineOpacity": 0.05,
+      "widgetOutlineOpacity": 0.3,
       "hoverPopouts": true,
       "hoverPopoutDelay": 299
     }
